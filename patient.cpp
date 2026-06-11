@@ -154,7 +154,6 @@ while(true)
         cout<<"ID "<<p.id<<" already exists in file. Try another.\n";
         continue;
     }
-
     break; // ID is unique
 }
 

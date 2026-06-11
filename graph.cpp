@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Constructor
+//  Constructor
 ConflictGraph::ConflictGraph()
 {
     nodeCount=0;

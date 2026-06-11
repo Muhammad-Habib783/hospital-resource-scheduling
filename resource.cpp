@@ -18,7 +18,7 @@ Resource::Resource()
     specialization="-";
     available=true;
     assignedPatient=0;
-    capacity=1;       //  (default 1)
+    capacity=1;       // (default 1)
     currentLoad=0;    
 }
 

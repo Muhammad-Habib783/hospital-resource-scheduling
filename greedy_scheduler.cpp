@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Constructor
+//  Constructor
 GreedyScheduler::GreedyScheduler() 
 {
     sortedCount=0;

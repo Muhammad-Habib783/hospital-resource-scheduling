@@ -27,7 +27,7 @@ public:
     // Case insensitive conversion
     string ToLower(const string& str);
 
-    // Save schedule to CSV
+    //  Save schedule to CSV
     bool SaveSchedule(Patient* patients,int count,ResourceManager& rm);
 
     // Display schedule

@@ -4,7 +4,7 @@
 #include<ctime>
 using namespace std;
 
-// Constructor
+//  Constructor
 ReportGenerator::ReportGenerator() {}
 
 // Get resource name by ID

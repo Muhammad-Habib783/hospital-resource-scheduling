@@ -1,7 +1,6 @@
 #ifndef PRIORITY_QUEUE_H
 #define PRIORITY_QUEUE_H
 #pragma once
-
 #include"patient.h"
 using namespace std;
 

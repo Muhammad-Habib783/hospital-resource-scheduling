@@ -2,6 +2,7 @@
 #define GREEDY_SCHEDULER_H
 #pragma once
 
+
 #include"patient.h"
 #include"graph.h"
 #include"priority_queue.h"

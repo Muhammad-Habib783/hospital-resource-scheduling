@@ -2,6 +2,7 @@
 #define OUTPUT_H
 #pragma once
 
+
 #include"patient.h"
 #include"resource.h"
 #include"graph.h"

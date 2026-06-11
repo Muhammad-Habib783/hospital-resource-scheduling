@@ -16,7 +16,7 @@ string Scheduler::ToLower(const string& str)
     return result;
 }
 
-// Diagnosis to specialization mapping
+//  Diagnosis to specialization mapping
 string Scheduler::GetSpecialization(const string& diagnosis) 
 {
     string d=ToLower(diagnosis);
