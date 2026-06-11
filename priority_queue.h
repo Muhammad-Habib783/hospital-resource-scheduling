@@ -5,7 +5,6 @@
 using namespace std;
 
 const int MAX_HEAP_SIZE=500;
-
 class PatientPriorityQueue 
 {
 public:

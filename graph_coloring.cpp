@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-//  Constructor
+// Constructor
 GraphColoring::GraphColoring() 
 {
     totalSlotsUsed=0;

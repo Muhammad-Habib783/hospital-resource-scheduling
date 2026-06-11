@@ -2,7 +2,6 @@
 #define GRAPH_COLORING_H
 #pragma once
 
-
 #include"patient.h"
 #include"graph.h"
 #include"greedy_scheduler.h"

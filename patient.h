@@ -11,7 +11,7 @@
 #include"resource.h"
 using namespace std;
 
-//  Basic limits and defaults
+// Basic limits and defaults
 const int INITIAL_CAPACITY=100;
 const int MAX_NAME_LEN=50; // Patient name
 const int MAX_MRN_LEN=20; // Medical Record Number

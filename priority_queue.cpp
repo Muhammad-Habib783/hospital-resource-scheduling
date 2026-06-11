@@ -8,7 +8,7 @@ PatientPriorityQueue::PatientPriorityQueue()
     size=0;
 }
 
-//  Priority = Emergency + Severity
+// Priority = Emergency + Severity
 int PatientPriorityQueue::GetPriority(const Patient& p) const 
 {
     return p.emergency + p.severity;

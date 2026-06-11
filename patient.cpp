@@ -183,7 +183,7 @@ while(true)
         break;
     }
 
-    // Age
+    //  Age
     while(true)
     {
         cout<<"Enter age: ";

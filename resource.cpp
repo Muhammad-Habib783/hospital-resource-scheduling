@@ -32,7 +32,7 @@ while (true) {
     if (!input.empty() && all_of(input.begin(), input.end(), ::isdigit)) {
         int id = stoi(input);
 
-        // check for duplicate in file
+        //  check for duplicate in file
         ifstream ifs("resources.csv");
         string line;
         getline(ifs, line); // skip header

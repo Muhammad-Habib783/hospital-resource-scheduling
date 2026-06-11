@@ -24,7 +24,7 @@ public:
     // Diagnosis to specialization mapping
     string GetSpecialization(const string& diagnosis);
 
-    // Case insensitive conversion
+    //  Case insensitive conversion
     string ToLower(const string& str);
 
     //  Save schedule to CSV

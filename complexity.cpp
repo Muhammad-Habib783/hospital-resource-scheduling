@@ -117,7 +117,7 @@ void ComplexityAnalyzer::AnalyzeGraphColoring(int n,int e)
 
     clock_t start=clock();
 
-    // Simulate coloring  operations
+    //  Simulate coloring  operations
     long long ops=n+e;
 
     clock_t end=clock();

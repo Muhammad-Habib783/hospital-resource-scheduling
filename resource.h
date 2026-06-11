@@ -35,7 +35,7 @@ public:
     int count;               // Number of resources stored
 
 public:
-    ResourceManager();      // Constructor
+    ResourceManager();      //  Constructor
 
     void AddResource();      // Add new resource
     bool DeleteResource(); // Delete resource by ID

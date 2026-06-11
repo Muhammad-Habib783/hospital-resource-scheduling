@@ -9,7 +9,7 @@ using namespace std;
 
 const int MAX_PATIENTS=500;
 
-// Adjacency list node
+//  Adjacency list node
 struct AdjNode 
 {
     int patientId;   // connected patient ID
