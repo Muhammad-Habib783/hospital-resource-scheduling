@@ -1,0 +1,181 @@
+id,type,name,specialization,available,assignedPatient,capacity,currentLoad
+1,Doctor,Dr. Ahmed Khan,Cardiologist,false,1,1,1
+2,Doctor,Dr. Sara Ali,Cardiologist,false,4,1,1
+3,Doctor,Dr. Usman Malik,Cardiologist,true,0,1,0
+4,Doctor,Dr. Fatima Noor,Neurologist,true,0,1,0
+5,Doctor,Dr. Ali Hassan,Neurologist,true,0,1,0
+6,Doctor,Dr. Zara Sheikh,Neurologist,true,0,1,0
+7,Doctor,Dr. Bilal Ahmed,Orthopedic,true,0,1,0
+8,Doctor,Dr. Hina Qureshi,Orthopedic,true,0,1,0
+9,Doctor,Dr. Omar Farooq,Orthopedic,true,0,1,0
+10,Doctor,Dr. Sana Tariq,General Physician,false,2,1,1
+11,Doctor,Dr. Kamran Iqbal,General Physician,true,0,1,0
+12,Doctor,Dr. Nadia Hussain,General Physician,true,0,1,0
+13,Doctor,Dr. Tariq Mehmood,General Physician,true,0,1,0
+14,Doctor,Dr. Ayesha Raza,Ophthalmologist,true,0,1,0
+15,Doctor,Dr. Faisal Chaudhry,Ophthalmologist,true,0,1,0
+16,Doctor,Dr. Maryam Baig,Ophthalmologist,true,0,1,0
+17,Doctor,Dr. Asad Javed,Dermatologist,true,0,1,0
+18,Doctor,Dr. Rabia Anwar,Dermatologist,true,0,1,0
+19,Doctor,Dr. Zubair Khan,Dermatologist,true,0,1,0
+20,Doctor,Dr. Sadia Pervez,Pediatrician,true,0,1,0
+21,Doctor,Dr. Imran Siddiqui,Pediatrician,true,0,1,0
+22,Doctor,Dr. Lubna Aziz,Pediatrician,true,0,1,0
+23,Doctor,Dr. Nasir Mahmood,Pediatrician,true,0,1,0
+24,Doctor,Dr. Amina Ghafoor,Gynecologist,true,0,1,0
+25,Doctor,Dr. Saima Nawaz,Gynecologist,true,0,1,0
+26,Doctor,Dr. Rukhsana Butt,Gynecologist,true,0,1,0
+27,Doctor,Dr. Shaista Malik,Gynecologist,true,0,1,0
+28,Doctor,Dr. Junaid Akhtar,Oncologist,true,0,1,0
+29,Doctor,Dr. Perveen Zaidi,Oncologist,true,0,1,0
+30,Doctor,Dr. Adnan Mirza,Oncologist,true,0,1,0
+31,Doctor,Dr. Bushra Saleem,Pulmonologist,true,0,1,0
+32,Doctor,Dr. Khalid Rehman,Pulmonologist,true,0,1,0
+33,Doctor,Dr. Fozia Hameed,Pulmonologist,true,0,1,0
+34,Doctor,Dr. Naveed Aslam,Nephrologist,true,0,1,0
+35,Doctor,Dr. Tahira Yousaf,Nephrologist,true,0,1,0
+36,Doctor,Dr. Shehzad Babar,Nephrologist,true,0,1,0
+37,Doctor,Dr. Uzma Rafique,Gastroenterologist,true,0,1,0
+38,Doctor,Dr. Rizwan Haider,Gastroenterologist,true,0,1,0
+39,Doctor,Dr. Samina Waheed,Gastroenterologist,true,0,1,0
+40,Doctor,Dr. Mudassar Ali,Endocrinologist,true,0,1,0
+41,Doctor,Dr. Noman Sheikh,Endocrinologist,true,0,1,0
+42,Doctor,Dr. Ghazala Parveen,Endocrinologist,true,0,1,0
+43,Doctor,Dr. Waqas Latif,Dentist,true,0,1,0
+44,Doctor,Dr. Huma Zahid,Dentist,true,0,1,0
+45,Doctor,Dr. Shoaib Rana,Dentist,true,0,1,0
+46,Doctor,Dr. Tasneem Bano,ENT Specialist,true,0,1,0
+47,Doctor,Dr. Irfan Gillani,ENT Specialist,true,0,1,0
+48,Doctor,Dr. Mahwish Asif,ENT Specialist,true,0,1,0
+49,Doctor,Dr. Abid Mehmood,Psychiatrist,true,0,1,0
+50,Doctor,Dr. Farzana Kousar,Psychiatrist,true,0,1,0
+51,Doctor,Dr. Shahid Iqbal,Psychiatrist,true,0,1,0
+52,Doctor,Dr. Nusrat Jahan,Urologist,true,0,1,0
+53,Doctor,Dr. Arshad Bhatti,Urologist,true,0,1,0
+54,Doctor,Dr. Qurat ul Ain,Urologist,true,0,1,0
+55,Doctor,Dr. Hamid Sultan,Hematologist,true,0,1,0
+56,Doctor,Dr. Tehmina Lodhi,Hematologist,true,0,1,0
+57,Doctor,Dr. Sajid Mehmood,Hematologist,true,0,1,0
+58,Doctor,Dr. Robina Azhar,Allergist,true,0,1,0
+59,Doctor,Dr. Farrukh Niaz,Allergist,true,0,1,0
+60,Doctor,Dr. Munira Hashmi,Allergist,true,0,1,0
+61,Doctor,Dr. Zahid Hussain,Rheumatologist,true,0,1,0
+62,Doctor,Dr. Shazia Qamar,Rheumatologist,true,0,1,0
+63,Doctor,Dr. Naseem Akhtar,Rheumatologist,true,0,1,0
+64,Doctor,Dr. Aamir Liaquat,General Surgeon,true,0,1,0
+65,Doctor,Dr. Parveen Shakir,General Surgeon,true,0,1,0
+66,Doctor,Dr. Rehan Zafar,General Surgeon,true,0,1,0
+67,Doctor,Dr. Sobia Naz,Plastic Surgeon,true,0,1,0
+68,Doctor,Dr. Kamran Bashir,Plastic Surgeon,true,0,1,0
+69,Doctor,Dr. Afshan Ellahi,Plastic Surgeon,true,0,1,0
+70,Doctor,Dr. Waseem Akram,Spine Specialist,true,0,1,0
+71,Doctor,Dr. Naghmana Rizvi,Spine Specialist,true,0,1,0
+72,Doctor,Dr. Babar Aziz,Spine Specialist,true,0,1,0
+73,Doctor,Dr. Zara Rashid,Podiatrist,true,0,1,0
+74,Doctor,Dr. Imtiaz Ahmed,Podiatrist,true,0,1,0
+75,Doctor,Dr. Lubna Sarwar,Podiatrist,true,0,1,0
+76,Doctor,Dr. Fawad Khan,Nutritionist,true,0,1,0
+77,Doctor,Dr. Shirin Farhad,Nutritionist,true,0,1,0
+78,Doctor,Dr. Bilal Chaudhry,Nutritionist,true,0,1,0
+79,Doctor,Dr. Asma Jahangir,Cardiothoracic Surgeon,true,0,1,0
+80,Doctor,Dr. Haroon Rashid,Cardiothoracic Surgeon,true,0,1,0
+81,Doctor,Dr. Mehwish Hayat,Cardiothoracic Surgeon,true,0,1,0
+82,Doctor,Dr. Salman Ahmed,Neurosurgeon,true,0,1,0
+83,Doctor,Dr. Rahat Ali,Neurosurgeon,true,0,1,0
+84,Doctor,Dr. Ayesha Siddiqui,Neurosurgeon,true,0,1,0
+85,Doctor,Dr. Zafar Iqbal,Physiotherapist,true,0,1,0
+86,Doctor,Dr. Hira Baig,Physiotherapist,true,0,1,0
+87,Doctor,Dr. Kashif Mirza,Physiotherapist,true,0,1,0
+88,Doctor,Dr. Samra Butt,Radiologist,true,0,1,0
+89,Doctor,Dr. Tariq Jamil,Radiologist,true,0,1,0
+90,Doctor,Dr. Nadia Khan,Radiologist,true,0,1,0
+91,Doctor,Dr. Umer Farooq,Emergency Physician,true,0,1,0
+92,Doctor,Dr. Sadia Imam,Emergency Physician,true,0,1,0
+93,Doctor,Dr. Khalid Mehmood,Emergency Physician,true,0,1,0
+94,Doctor,Dr. Faiza Malik,Emergency Physician,true,0,1,0
+95,Doctor,Dr. Asif Zardari,General Physician,true,0,1,0
+96,Doctor,Dr. Nargis Fatima,General Physician,true,0,1,0
+97,Doctor,Dr. Moeen Ahmad,Pediatrician,true,0,1,0
+98,Doctor,Dr. Sadaf Gilani,Gynecologist,true,0,1,0
+99,Doctor,Dr. Jawad Bashir,Cardiologist,true,0,1,0
+100,Doctor,Dr. Amna Iqbal,Neurologist,true,0,1,0
+101,Nurse,Nurse Aisha Bibi,General,false,4,3,3
+102,Nurse,Nurse Sana Gul,General,true,0,3,0
+103,Nurse,Nurse Rabia Khan,General,true,0,3,0
+104,Nurse,Nurse Hina Malik,General,true,0,3,0
+105,Nurse,Nurse Fozia Akhtar,General,true,0,3,0
+106,Nurse,Nurse Nadia Rehman,General,true,0,3,0
+107,Nurse,Nurse Bushra Naz,General,true,0,3,0
+108,Nurse,Nurse Saima Bibi,General,true,0,3,0
+109,Nurse,Nurse Rukhsana Jan,General,true,0,3,0
+110,Nurse,Nurse Amina Parveen,General,true,0,3,0
+111,Nurse,Nurse Tahira Malik,General,true,0,3,0
+112,Nurse,Nurse Uzma Bano,General,true,0,3,0
+113,Nurse,Nurse Shabana Gul,General,true,0,3,0
+114,Nurse,Nurse Lubna Riaz,General,true,0,3,0
+115,Nurse,Nurse Zara Hussain,General,true,0,3,0
+116,Nurse,Nurse Sobia Khan,General,true,0,3,0
+117,Nurse,Nurse Maryam Bibi,General,true,0,3,0
+118,Nurse,Nurse Farah Naz,General,true,0,3,0
+119,Nurse,Nurse Ghazala Jan,General,true,0,3,0
+120,Nurse,Nurse Shahida Begum,General,true,0,3,0
+121,Nurse,Nurse Parveen Akhtar,General,true,0,3,0
+122,Nurse,Nurse Naghmana Bibi,General,true,0,3,0
+123,Nurse,Nurse Samina Gul,General,true,0,3,0
+124,Nurse,Nurse Robina Khan,General,true,0,3,0
+125,Nurse,Nurse Tehmina Bano,General,true,0,3,0
+126,Nurse,Nurse Shazia Malik,General,true,0,3,0
+127,Nurse,Nurse Farzana Bibi,General,true,0,3,0
+128,Nurse,Nurse Nasreen Gul,General,true,0,3,0
+129,Nurse,Nurse Nusrat Akhtar,General,true,0,3,0
+130,Nurse,Nurse Shamim Begum,General,true,0,3,0
+131,Nurse,Nurse Yasmin Khan,General,true,0,3,0
+132,Nurse,Nurse Hafsa Bibi,General,true,0,3,0
+133,Nurse,Nurse Iram Malik,General,true,0,3,0
+134,Nurse,Nurse Asma Gul,General,true,0,3,0
+135,Nurse,Nurse Nazia Bano,General,true,0,3,0
+136,Nurse,Nurse Mahwish Bibi,General,true,0,3,0
+137,Nurse,Nurse Ayesha Khan,General,true,0,3,0
+138,Nurse,Nurse Sumera Akhtar,General,true,0,3,0
+139,Nurse,Nurse Rizwana Gul,General,true,0,3,0
+140,Nurse,Nurse Qurat ul Ain,General,true,0,3,0
+141,Nurse,Nurse Amber Malik,General,true,0,3,0
+142,Nurse,Nurse Huma Bibi,General,true,0,3,0
+143,Nurse,Nurse Sadia Khan,General,true,0,3,0
+144,Nurse,Nurse Kiran Bano,General,true,0,3,0
+145,Nurse,Nurse Nida Akhtar,General,true,0,3,0
+146,Nurse,Nurse Iqra Gul,General,true,0,3,0
+147,Nurse,Nurse Madiha Bibi,General,true,0,3,0
+148,Nurse,Nurse Zainab Khan,General,true,0,3,0
+149,Nurse,Nurse Aliya Malik,General,true,0,3,0
+150,Nurse,Nurse Bisma Bano,General,true,0,3,0
+151,Room,Room-101,General,false,4,3,3
+152,Room,Room-102,General,true,0,3,0
+153,Room,Room-103,General,true,0,3,0
+154,Room,Room-104,General,true,0,3,0
+155,Room,Room-105,General,true,0,3,0
+156,Room,Room-106,ICU,true,0,3,0
+157,Room,Room-107,ICU,true,0,3,0
+158,Room,Room-108,ICU,true,0,3,0
+159,Room,Room-109,ICU,true,0,3,0
+160,Room,Room-110,ICU,true,0,3,0
+161,Room,Room-111,Emergency,true,0,3,0
+162,Room,Room-112,Emergency,true,0,3,0
+163,Room,Room-113,Emergency,true,0,3,0
+164,Room,Room-114,Emergency,true,0,3,0
+165,Room,Room-115,Emergency,true,0,3,0
+166,Room,Room-116,General,true,0,3,0
+167,Room,Room-117,General,true,0,3,0
+168,Room,Room-118,General,true,0,3,0
+169,Room,Room-119,General,true,0,3,0
+170,Room,Room-120,General,true,0,3,0
+171,Room,Room-121,Pediatric,true,0,3,0
+172,Room,Room-122,Pediatric,true,0,3,0
+173,Room,Room-123,Pediatric,true,0,3,0
+174,Room,Room-124,Maternity,true,0,3,0
+175,Room,Room-125,Maternity,true,0,3,0
+176,Room,Room-126,Maternity,true,0,3,0
+177,Room,Room-127,Surgery,true,0,3,0
+178,Room,Room-128,Surgery,true,0,3,0
+179,Room,Room-129,Surgery,true,0,3,0
+180,Room,Room-130,General,true,0,3,0

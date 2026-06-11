@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Hospital Schedule Report</title>
+<style>
+body { font-family: Arial, sans-serif; background: #f0f4f8; margin: 20px; }
+h1 { text-align: center; color: #2c3e50; background: #3498db; color: white; padding: 20px; border-radius: 10px; }
+.patient-card { background: white; border-radius: 10px; padding: 20px; margin: 20px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.section-title { background: #2c3e50; color: white; padding: 8px 15px; border-radius: 5px; margin: 10px 0; }
+.info-row { display: flex; padding: 5px 0; border-bottom: 1px solid #eee; }
+.label { font-weight: bold; width: 180px; color: #555; }
+.value { color: #2c3e50; }
+.status-ok { background: #27ae60; color: white; padding: 8px 15px; border-radius: 5px; text-align: center; margin-top: 10px; }
+.priority-high { color: #e74c3c; font-weight: bold; }
+.priority-mid { color: #f39c12; font-weight: bold; }
+.priority-low { color: #27ae60; font-weight: bold; }
+</style>
+</head>
+<body>
+<h1>🏥 Hospital Schedule Report</h1>
+<div class='patient-card'>
+<div class='section-title'>👤 Patient Report #1</div>
+<div class='info-row'><span class='label'>Patient Name</span><span class='value'>ali</span></div>
+<div class='info-row'><span class='label'>Patient ID</span><span class='value'>1</span></div>
+<div class='info-row'><span class='label'>MRN</span><span class='value'>56rt54</span></div>
+<div class='info-row'><span class='label'>Age</span><span class='value'>65</span></div>
+<div class='info-row'><span class='label'>Gender</span><span class='value'>Male</span></div>
+<div class='info-row'><span class='label'>Diagnosis</span><span class='value'>heart attack</span></div>
+<div class='info-row'><span class='label'>Emergency</span><span class='value priority-high'>90</span></div>
+<div class='info-row'><span class='label'>Severity</span><span class='value priority-high'>9</span></div>
+<div class='info-row'><span class='label'>Status</span><span class='value'>Admitted</span></div>
+<div class='info-row'><span class='label'>Registered At</span><span class='value'>25-Apr-2026 04:13 PM</span></div>
+<div class='section-title'>🏥 Assigned Resources</div>
+<div class='info-row'><span class='label'>Doctor</span><span class='value'>Dr. Ahmed Khan (Cardiologist)</span></div>
+<div class='info-row'><span class='label'>Nurse</span><span class='value'>Nurse Aisha Bibi</span></div>
+<div class='info-row'><span class='label'>Room</span><span class='value'>Room-101</span></div>
+<div class='section-title'>📅 Schedule Info</div>
+<div class='info-row'><span class='label'>Time Slot</span><span class='value'>2</span></div>
+<div class='info-row'><span class='label'>Appointment</span><span class='value'>09:30 AM</span></div>
+<div class='info-row'><span class='label'>Priority Score</span><span class='value priority-high'>99</span></div>
+<div class='status-ok'>✅ SCHEDULE CONFLICT FREE!</div>
+</div>
+<div class='patient-card'>
+<div class='section-title'>👤 Patient Report #2</div>
+<div class='info-row'><span class='label'>Patient Name</span><span class='value'>asad</span></div>
+<div class='info-row'><span class='label'>Patient ID</span><span class='value'>2</span></div>
+<div class='info-row'><span class='label'>MRN</span><span class='value'>34re43</span></div>
+<div class='info-row'><span class='label'>Age</span><span class='value'>24</span></div>
+<div class='info-row'><span class='label'>Gender</span><span class='value'>Male</span></div>
+<div class='info-row'><span class='label'>Diagnosis</span><span class='value'>flu</span></div>
+<div class='info-row'><span class='label'>Emergency</span><span class='value priority-low'>34</span></div>
+<div class='info-row'><span class='label'>Severity</span><span class='value priority-low'>3</span></div>
+<div class='info-row'><span class='label'>Status</span><span class='value'>Admitted</span></div>
+<div class='info-row'><span class='label'>Registered At</span><span class='value'>25-Apr-2026 04:14 PM</span></div>
+<div class='section-title'>🏥 Assigned Resources</div>
+<div class='info-row'><span class='label'>Doctor</span><span class='value'>Dr. Sana Tariq (General Physician)</span></div>
+<div class='info-row'><span class='label'>Nurse</span><span class='value'>Nurse Aisha Bibi</span></div>
+<div class='info-row'><span class='label'>Room</span><span class='value'>Room-101</span></div>
+<div class='section-title'>📅 Schedule Info</div>
+<div class='info-row'><span class='label'>Time Slot</span><span class='value'>4</span></div>
+<div class='info-row'><span class='label'>Appointment</span><span class='value'>10:30 AM</span></div>
+<div class='info-row'><span class='label'>Priority Score</span><span class='value priority-low'>37</span></div>
+<div class='status-ok'>✅ SCHEDULE CONFLICT FREE!</div>
+</div>
+<div class='patient-card'>
+<div class='section-title'>👤 Patient Report #3</div>
+<div class='info-row'><span class='label'>Patient Name</span><span class='value'>ali khan</span></div>
+<div class='info-row'><span class='label'>Patient ID</span><span class='value'>3</span></div>
+<div class='info-row'><span class='label'>MRN</span><span class='value'>23re45</span></div>
+<div class='info-row'><span class='label'>Age</span><span class='value'>24</span></div>
+<div class='info-row'><span class='label'>Gender</span><span class='value'>Male</span></div>
+<div class='info-row'><span class='label'>Diagnosis</span><span class='value'>heart attack</span></div>
+<div class='info-row'><span class='label'>Emergency</span><span class='value priority-high'>99</span></div>
+<div class='info-row'><span class='label'>Severity</span><span class='value priority-high'>9</span></div>
+<div class='info-row'><span class='label'>Status</span><span class='value'>Admitted</span></div>
+<div class='info-row'><span class='label'>Registered At</span><span class='value'>25-Apr-2026 04:34 PM</span></div>
+<div class='section-title'>🏥 Assigned Resources</div>
+<div class='info-row'><span class='label'>Doctor</span><span class='value'>Dr. Sara Ali (Cardiologist)</span></div>
+<div class='info-row'><span class='label'>Nurse</span><span class='value'>Nurse Aisha Bibi</span></div>
+<div class='info-row'><span class='label'>Room</span><span class='value'>Room-101</span></div>
+<div class='section-title'>📅 Schedule Info</div>
+<div class='info-row'><span class='label'>Time Slot</span><span class='value'>1</span></div>
+<div class='info-row'><span class='label'>Appointment</span><span class='value'>09:00 AM</span></div>
+<div class='info-row'><span class='label'>Priority Score</span><span class='value priority-high'>108</span></div>
+<div class='status-ok'>✅ SCHEDULE CONFLICT FREE!</div>
+</div>
+<div class='patient-card'>
+<div class='section-title'>👤 Patient Report #4</div>
+<div class='info-row'><span class='label'>Patient Name</span><span class='value'>Ali Khan</span></div>
+<div class='info-row'><span class='label'>Patient ID</span><span class='value'>4</span></div>
+<div class='info-row'><span class='label'>MRN</span><span class='value'>12RE34</span></div>
+<div class='info-row'><span class='label'>Age</span><span class='value'>24</span></div>
+<div class='info-row'><span class='label'>Gender</span><span class='value'>Male</span></div>
+<div class='info-row'><span class='label'>Diagnosis</span><span class='value'>Heart Attack</span></div>
+<div class='info-row'><span class='label'>Emergency</span><span class='value priority-high'>90</span></div>
+<div class='info-row'><span class='label'>Severity</span><span class='value priority-high'>8</span></div>
+<div class='info-row'><span class='label'>Status</span><span class='value'>Admitted</span></div>
+<div class='info-row'><span class='label'>Registered At</span><span class='value'>11-Jun-2026 12:44 PM</span></div>
+<div class='section-title'>🏥 Assigned Resources</div>
+<div class='info-row'><span class='label'>Doctor</span><span class='value'>Dr. Sara Ali (Cardiologist)</span></div>
+<div class='info-row'><span class='label'>Nurse</span><span class='value'>Nurse Aisha Bibi</span></div>
+<div class='info-row'><span class='label'>Room</span><span class='value'>Room-101</span></div>
+<div class='section-title'>📅 Schedule Info</div>
+<div class='info-row'><span class='label'>Time Slot</span><span class='value'>3</span></div>
+<div class='info-row'><span class='label'>Appointment</span><span class='value'>10:00 AM</span></div>
+<div class='info-row'><span class='label'>Priority Score</span><span class='value priority-high'>98</span></div>
+<div class='status-ok'>✅ SCHEDULE CONFLICT FREE!</div>
+</div>
+<div style='text-align:center;background:#2c3e50;color:white;padding:15px;border-radius:10px;margin-top:20px;'>Total Patients Scheduled: 4</div>
+</body>
+</html>

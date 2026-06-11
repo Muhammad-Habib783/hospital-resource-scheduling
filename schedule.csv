@@ -1,0 +1,5 @@
+PatientId,PatientName,DoctorId,NurseId,RoomId,TimeSlot,AppointmentTime,Status
+1,ali,1,101,151,2,09:30 AM,Admitted
+2,asad,10,101,151,4,10:30 AM,Admitted
+3,ali khan,2,101,151,1,09:00 AM,Admitted
+4,Ali Khan,2,101,151,3,10:00 AM,Admitted
